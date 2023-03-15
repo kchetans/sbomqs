@@ -6,7 +6,6 @@ package cmd
 import (
 	"context"
 	"fmt"
-	"log"
 	"strings"
 
 	"github.com/interlynk-io/sbomqs/pkg/logger"
@@ -40,18 +39,20 @@ var shareCmd = &cobra.Command{
 		return nil
 	},
 
-	Run: func(cmd *cobra.Command, args []string) {
+	RunE: func(cmd *cobra.Command, args []string) error {
 		ctx := logger.WithLogger(context.Background())
 
 		sbomFileName := args[0]
 		doc, scores, err := processFile(ctx, sbomFileName, nil)
 
 		if err != nil {
-			log.Fatal(ctx, err)
+			fmt.Printf("Error processing file %s: %s", sbomFileName, err)
+			return err
 		}
 		url, err := share.Share(ctx, doc, scores, sbomFileName)
 		if err != nil {
-			log.Fatal(ctx, err)
+			fmt.Printf("Error sharing file %s: %s", sbomFileName, err)
+			return err
 		}
 		nr := reporter.NewReport(ctx,
 			[]sbom.Document{doc},
@@ -60,6 +61,7 @@ var shareCmd = &cobra.Command{
 			reporter.WithFormat(strings.ToLower("basic")))
 		nr.Report()
 		fmt.Printf("ShareLink: %s\n", url)
+		return nil
 	},
 }
 

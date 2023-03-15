@@ -20,7 +20,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	"net/http/httputil"
 	"net/url"
 	"strings"
 
@@ -59,12 +58,12 @@ func sentToBenchmark(js string) (string, error) {
 		Body: ioutil.NopCloser(strings.NewReader(js)),
 	}
 
-	// Save a copy of this request for debugging.
-	requestDump, err := httputil.DumpRequest(req, true)
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Println(string(requestDump))
+	// // Save a copy of this request for debugging.
+	// requestDump, err := httputil.DumpRequest(req, true)
+	// if err != nil {
+	// 	fmt.Println(err)
+	// }
+	// fmt.Println(string(requestDump))
 
 	resp, err := http.DefaultClient.Do(req)
 
@@ -73,6 +72,10 @@ func sentToBenchmark(js string) (string, error) {
 	}
 
 	defer resp.Body.Close()
+
+	if resp.StatusCode != 200 {
+		return "", fmt.Errorf("bad response from Benchmark: %s", resp.Status)
+	}
 
 	data, _ := ioutil.ReadAll(resp.Body)
 	sr := shareResonse{}
