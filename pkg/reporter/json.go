@@ -68,7 +68,7 @@ func newJsonReport() *jsonReport {
 	}
 }
 
-func (r *Reporter) jsonReport() {
+func (r *Reporter) jsonReport(onlyResponse bool) (string, error) {
 	jr := newJsonReport()
 	for index, path := range r.Paths {
 		doc := r.Docs[index]
@@ -96,6 +96,12 @@ func (r *Reporter) jsonReport() {
 
 		jr.Files = append(jr.Files, f)
 	}
-	o, _ := json.MarshalIndent(jr, "", "  ")
-	fmt.Println(string(o))
+	o, err := json.MarshalIndent(jr, "", "  ")
+	if err != nil {
+		return "", err
+	}
+	if !onlyResponse {
+		fmt.Println(string(o))
+	}
+	return string(o), nil
 }
