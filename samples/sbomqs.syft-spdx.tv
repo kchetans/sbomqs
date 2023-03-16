@@ -53,9 +53,9 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: SECURITY cpe23Type cpe:2.3:a:inconshreveable:mousetrap:v1.0.1:*:*:*:*:*:*:*
 ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/inconshreveable/mousetrap@v1.0.1
 
-##### Package: github.com/interlynk-io/sbomqs
+##### Package: github.com/kchetans/sbomqs
 
-PackageName: github.com/interlynk-io/sbomqs
+PackageName: github.com/kchetans/sbomqs
 SPDXID: SPDXRef-Package-go-module-github.com-interlynk-io-sbomqs-bc69e5c193d3e313
 PackageVersion: (devel)
 PackageDownloadLocation: NOASSERTION
@@ -67,7 +67,7 @@ PackageCopyrightText: NOASSERTION
 ExternalRef: SECURITY cpe23Type cpe:2.3:a:interlynk-io:sbomqs:\(devel\):*:*:*:*:*:*:*
 ExternalRef: SECURITY cpe23Type cpe:2.3:a:interlynk_io:sbomqs:\(devel\):*:*:*:*:*:*:*
 ExternalRef: SECURITY cpe23Type cpe:2.3:a:interlynk:sbomqs:\(devel\):*:*:*:*:*:*:*
-ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/interlynk-io/sbomqs@(devel)
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/github.com/kchetans/sbomqs@(devel)
 
 ##### Package: github.com/mattn/go-runewidth
 

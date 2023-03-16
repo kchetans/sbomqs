@@ -4,7 +4,7 @@ package sbomfakes
 import (
 	"sync"
 
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/sbom"
 )
 
 type FakeLicense struct {

@@ -17,7 +17,7 @@ package scorer
 import (
 	"fmt"
 
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/sbom"
 )
 
 type category string

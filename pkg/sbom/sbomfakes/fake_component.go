@@ -4,9 +4,9 @@ package sbomfakes
 import (
 	"sync"
 
-	"github.com/interlynk-io/sbomqs/pkg/cpe"
-	"github.com/interlynk-io/sbomqs/pkg/purl"
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/cpe"
+	"github.com/kchetans/sbomqs/pkg/purl"
+	"github.com/kchetans/sbomqs/pkg/sbom"
 )
 
 type FakeComponent struct {

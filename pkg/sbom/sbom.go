@@ -23,7 +23,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/interlynk-io/sbomqs/pkg/logger"
+	"github.com/kchetans/sbomqs/pkg/logger"
 	"gopkg.in/yaml.v2"
 )
 

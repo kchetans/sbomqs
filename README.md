@@ -16,13 +16,13 @@
 
 # `sbomqs`: Quality metrics for SBOMs 
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/interlynk-io/sbomqs.svg)](https://pkg.go.dev/github.com/interlynk-io/sbomqs)
-[![Go Report Card](https://goreportcard.com/badge/github.com/interlynk-io/sbomqs)](https://goreportcard.com/report/github.com/interlynk-io/sbomqs)
+[![Go Reference](https://pkg.go.dev/badge/github.com/kchetans/sbomqs.svg)](https://pkg.go.dev/github.com/kchetans/sbomqs)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kchetans/sbomqs)](https://goreportcard.com/report/github.com/kchetans/sbomqs)
 
 `sbomqs` is your primary tool to assess the quality of sboms. The higher the score the more consumable your sboms are. 
 
 ```sh
-go install github.com/interlynk-io/sbomqs@latest
+go install github.com/kchetans/sbomqs@latest
 ```
 other installation [options](#installation).
 
@@ -163,7 +163,7 @@ json format
 
 
 # SBOM Samples
-- A sample set of SBOM is present in the [samples](https://github.com/interlynk-io/sbomqs/tree/main/samples) directory above
+- A sample set of SBOM is present in the [samples](https://github.com/kchetans/sbomqs/tree/main/samples) directory above
 - [SBOM Benchmark](https://www.sbombenchmark.dev) is a repository of SBOM and quality score for most popular containers and repositories
 - [SBOM Explorer](https://github.com/interlynk-io/sbomex) is a command line utility to search and pull SBOMs
 
@@ -172,7 +172,7 @@ json format
 ## Using Prebuilt binaries 
 
 ```console
-https://github.com/interlynk-io/sbomqs/releases
+https://github.com/kchetans/sbomqs/releases
 ```
 
 ## Using Homebrew
@@ -184,7 +184,7 @@ brew install sbomqs
 ## Using Go install
 
 ```console
-go install github.com/interlynk-io/sbomqs@latest
+go install github.com/kchetans/sbomqs@latest
 ```
 
 ## Using repo

@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/interlynk-io/sbomqs/pkg/scorer"
+	"github.com/kchetans/sbomqs/pkg/scorer"
 	"sigs.k8s.io/release-utils/version"
 )
 

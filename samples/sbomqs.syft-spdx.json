@@ -105,7 +105,7 @@
    ]
   },
   {
-   "name": "github.com/interlynk-io/sbomqs",
+   "name": "github.com/kchetans/sbomqs",
    "SPDXID": "SPDXRef-Package-go-module-github.com-interlynk-io-sbomqs-bc69e5c193d3e313",
    "versionInfo": "(devel)",
    "downloadLocation": "NOASSERTION",
@@ -135,7 +135,7 @@
     {
      "referenceCategory": "PACKAGE-MANAGER",
      "referenceType": "purl",
-     "referenceLocator": "pkg:golang/github.com/interlynk-io/sbomqs@(devel)",
+     "referenceLocator": "pkg:golang/github.com/kchetans/sbomqs@(devel)",
      "comment": ""
     }
    ]

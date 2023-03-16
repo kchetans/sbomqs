@@ -17,8 +17,8 @@ package reporter
 import (
 	"context"
 
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
-	"github.com/interlynk-io/sbomqs/pkg/scorer"
+	"github.com/kchetans/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/scorer"
 )
 
 type Reporter struct {

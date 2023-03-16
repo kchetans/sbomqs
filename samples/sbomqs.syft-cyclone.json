@@ -122,12 +122,12 @@
       ]
     },
     {
-      "bom-ref": "pkg:golang/github.com/interlynk-io/sbomqs@(devel)?package-id=bc69e5c193d3e313",
+      "bom-ref": "pkg:golang/github.com/kchetans/sbomqs@(devel)?package-id=bc69e5c193d3e313",
       "type": "library",
-      "name": "github.com/interlynk-io/sbomqs",
+      "name": "github.com/kchetans/sbomqs",
       "version": "(devel)",
       "cpe": "cpe:2.3:a:interlynk-io:sbomqs:\\(devel\\):*:*:*:*:*:*:*",
-      "purl": "pkg:golang/github.com/interlynk-io/sbomqs@(devel)",
+      "purl": "pkg:golang/github.com/kchetans/sbomqs@(devel)",
       "properties": [
         {
           "name": "syft:package:foundBy",

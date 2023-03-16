@@ -20,9 +20,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/interlynk-io/sbomqs/pkg/cpe"
-	"github.com/interlynk-io/sbomqs/pkg/logger"
-	"github.com/interlynk-io/sbomqs/pkg/purl"
+	"github.com/kchetans/sbomqs/pkg/cpe"
+	"github.com/kchetans/sbomqs/pkg/logger"
+	"github.com/kchetans/sbomqs/pkg/purl"
 	spdx_json "github.com/spdx/tools-golang/json"
 	spdx_rdf "github.com/spdx/tools-golang/rdfloader"
 	spdx_common "github.com/spdx/tools-golang/spdx/common"

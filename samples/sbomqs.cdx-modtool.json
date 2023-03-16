@@ -45,14 +45,14 @@
       }
     ],
     "component": {
-      "bom-ref": "pkg:golang/github.com/interlynk-io/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=module",
+      "bom-ref": "pkg:golang/github.com/kchetans/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=module",
       "type": "application",
-      "name": "github.com/interlynk-io/sbomqs",
+      "name": "github.com/kchetans/sbomqs",
       "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-      "purl": "pkg:golang/github.com/interlynk-io/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=module",
+      "purl": "pkg:golang/github.com/kchetans/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=module",
       "externalReferences": [
         {
-          "url": "https://github.com/interlynk-io/sbomqs",
+          "url": "https://github.com/kchetans/sbomqs",
           "type": "vcs"
         }
       ],
@@ -77,45 +77,45 @@
       "components": [
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs",
+          "name": "github.com/kchetans/sbomqs",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         },
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs/cmd",
+          "name": "github.com/kchetans/sbomqs/cmd",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs/cmd@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs/cmd@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         },
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs/pkg/licenses",
+          "name": "github.com/kchetans/sbomqs/pkg/licenses",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs/pkg/licenses@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs/pkg/licenses@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         },
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs/pkg/logger",
+          "name": "github.com/kchetans/sbomqs/pkg/logger",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs/pkg/logger@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs/pkg/logger@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         },
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs/pkg/reporter",
+          "name": "github.com/kchetans/sbomqs/pkg/reporter",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs/pkg/reporter@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs/pkg/reporter@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         },
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs/pkg/sbom",
+          "name": "github.com/kchetans/sbomqs/pkg/sbom",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs/pkg/sbom@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs/pkg/sbom@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         },
         {
           "type": "library",
-          "name": "github.com/interlynk-io/sbomqs/pkg/scorer",
+          "name": "github.com/kchetans/sbomqs/pkg/scorer",
           "version": "v0.0.2-0.20230131230801-a00b2a733eb0",
-          "purl": "pkg:golang/github.com/interlynk-io/sbomqs/pkg/scorer@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
+          "purl": "pkg:golang/github.com/kchetans/sbomqs/pkg/scorer@v0.0.2-0.20230131230801-a00b2a733eb0?type=package"
         }
       ],
       "evidence": {
@@ -666,7 +666,7 @@
   ],
   "dependencies": [
     {
-      "ref": "pkg:golang/github.com/interlynk-io/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=module",
+      "ref": "pkg:golang/github.com/kchetans/sbomqs@v0.0.2-0.20230131230801-a00b2a733eb0?type=module",
       "dependsOn": [
         "pkg:golang/github.com/CycloneDX/cyclonedx-go@v0.7.0?type=module",
         "pkg:golang/github.com/olekukonko/tablewriter@v0.0.5?type=module",

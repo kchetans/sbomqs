@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/interlynk-io/sbomqs/pkg/licenses"
+	"github.com/kchetans/sbomqs/pkg/licenses"
 )
 
 //counterfeiter:generate . License

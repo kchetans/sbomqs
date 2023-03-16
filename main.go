@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/interlynk-io/sbomqs/cmd"
+import "github.com/kchetans/sbomqs/cmd"
 
 func main() {
 	cmd.Execute()

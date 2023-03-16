@@ -1,4 +1,4 @@
-module github.com/interlynk-io/sbomqs
+module github.com/kchetans/sbomqs
 
 go 1.19
 

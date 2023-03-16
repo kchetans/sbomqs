@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/interlynk-io/sbomqs/pkg/logger"
-	"github.com/interlynk-io/sbomqs/pkg/reporter"
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
-	"github.com/interlynk-io/sbomqs/pkg/scorer"
+	"github.com/kchetans/sbomqs/pkg/logger"
+	"github.com/kchetans/sbomqs/pkg/reporter"
+	"github.com/kchetans/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/scorer"
 	"github.com/samber/lo"
 	"sigs.k8s.io/yaml"
 

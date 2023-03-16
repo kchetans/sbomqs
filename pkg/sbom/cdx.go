@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	cydx "github.com/CycloneDX/cyclonedx-go"
-	"github.com/interlynk-io/sbomqs/pkg/cpe"
-	"github.com/interlynk-io/sbomqs/pkg/purl"
+	"github.com/kchetans/sbomqs/pkg/cpe"
+	"github.com/kchetans/sbomqs/pkg/purl"
 	"github.com/samber/lo"
 )
 

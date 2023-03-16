@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/interlynk-io/sbomqs/pkg/logger"
-	"github.com/interlynk-io/sbomqs/pkg/scorer"
+	"github.com/kchetans/sbomqs/pkg/logger"
+	"github.com/kchetans/sbomqs/pkg/scorer"
 	"github.com/samber/lo"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"

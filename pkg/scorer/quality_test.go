@@ -17,10 +17,10 @@ package scorer
 import (
 	"testing"
 
-	"github.com/interlynk-io/sbomqs/pkg/cpe"
-	"github.com/interlynk-io/sbomqs/pkg/purl"
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
-	"github.com/interlynk-io/sbomqs/pkg/sbom/sbomfakes"
+	"github.com/kchetans/sbomqs/pkg/cpe"
+	"github.com/kchetans/sbomqs/pkg/purl"
+	"github.com/kchetans/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/sbom/sbomfakes"
 )
 
 func sampleDocs() []sbom.Document {

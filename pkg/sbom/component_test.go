@@ -17,8 +17,8 @@ package sbom
 import (
 	"testing"
 
-	"github.com/interlynk-io/sbomqs/pkg/cpe"
-	"github.com/interlynk-io/sbomqs/pkg/purl"
+	"github.com/kchetans/sbomqs/pkg/cpe"
+	"github.com/kchetans/sbomqs/pkg/purl"
 )
 
 func TestGetCpeFromCompo(t *testing.T) {

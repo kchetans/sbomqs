@@ -15,8 +15,8 @@
 package sbom
 
 //counterfeiter:generate . Component
-import "github.com/interlynk-io/sbomqs/pkg/cpe"
-import "github.com/interlynk-io/sbomqs/pkg/purl"
+import "github.com/kchetans/sbomqs/pkg/cpe"
+import "github.com/kchetans/sbomqs/pkg/purl"
 
 type Component interface {
 	ID() string

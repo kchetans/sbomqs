@@ -17,8 +17,8 @@ package scorer
 import (
 	"context"
 
-	"github.com/interlynk-io/sbomqs/pkg/logger"
-	"github.com/interlynk-io/sbomqs/pkg/sbom"
+	"github.com/kchetans/sbomqs/pkg/logger"
+	"github.com/kchetans/sbomqs/pkg/sbom"
 	"github.com/samber/lo"
 )
 
