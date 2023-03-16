@@ -44,10 +44,6 @@ release:
 
 brews:
   - name: sbomqs
-    goarm: 6
-    goamd64: v3
     tap:
       owner: Interlynk.io
       name: sbomqs
-      branch: main
-      token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
