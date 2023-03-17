@@ -26,7 +26,9 @@ jobs:
         uses: goreleaser/goreleaser-action@v4
         with:
           install-only: true
-          version: latest   
+          version: latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GR_TOKEN }}  
       - run: go version
       - run: goreleaser -v 
       - name: Releaser
