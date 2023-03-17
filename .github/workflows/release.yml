@@ -28,7 +28,7 @@ jobs:
           install-only: true
           version: latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GR_TOKEN }}  
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
       - run: go version
       - run: goreleaser -v 
       - name: Releaser
