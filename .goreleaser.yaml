@@ -44,11 +44,3 @@ release:
   
 sboms:
   - artifacts: archive
-  
-brews:
-  - name: sbomqs
-    homepage: https://github.com/kchetans/brew-repo
-    tap:
-      owner: kchetans
-      name: brew-repo
-      
