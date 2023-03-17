@@ -45,7 +45,7 @@ release:
 sboms:
   - artifacts: archive
  
- brews:
+brews:
   - name: sbomqs
     homepage: https://github.com/kchetans/brew-repo
     tap:
