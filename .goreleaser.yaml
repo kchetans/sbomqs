@@ -48,4 +48,4 @@ brews:
     tap:
       owner: kchetans
       name: brew-repo
-      token: ${{ secrets.GITHUB_TOKEN }}
+      token: ${{ .secrets.GITHUB_TOKEN }}
