@@ -45,10 +45,7 @@ release:
 brews:
   - name: sbomqs
     homepage: https://github.com/kchetans/brew-repo
-    folder: formula
     tap:
       owner: kchetans
       name: brew-repo
-    install: |-
-      bin.install "sbomqs"
-      bash_completion.install "completions/sbomqs.bash" => "sbomqs"
+      token: ${{ secrets.GITHUB_TOKEN }}
