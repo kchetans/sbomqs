@@ -45,6 +45,12 @@ release:
 brews:
   - name: sbomqs
     homepage: https://github.com/kchetans/sbomqs
+    folder: Formula
     tap:
       owner: kchetans
       name: brew-repo
+    install: |-
+      bin.install "sbomqs"
+      bash_completion.install "completions/sbomqs.bash" => "sbomqs"
+      zsh_completion.install "completions/sbomqs.zsh" => "_sbomqs"
+      fish_completion.install "completions/sbomqs.fish"
