@@ -41,7 +41,10 @@ snapshot:
 release:
   prerelease: allow 
   draft: true 
-
+  
+sboms:
+  - artifacts: archive
+  
 brews:
   - name: sbomqs
     homepage: https://github.com/kchetans/brew-repo
