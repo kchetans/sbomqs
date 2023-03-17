@@ -42,15 +42,18 @@ release:
   prerelease: allow 
   draft: true 
   
+
 sboms:
   - artifacts: archive
- 
+    documents:
+      - "${artifact}.spdx.sbom"
+    cmd: syft
+    args: ["$artifact", "--file", "$sbom", "--output", "spdx-json"]
+  
 brews:
-  - name: sbomqs
+  - name: sbomex
     homepage: https://github.com/kchetans/brew-repo
     tap:
       owner: kchetans
       name: brew-repo
-      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
-  
   
