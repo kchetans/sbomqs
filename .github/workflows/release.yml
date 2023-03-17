@@ -26,10 +26,10 @@ jobs:
         uses: goreleaser/goreleaser-action@v4
         with:
           install-only: true
-          version: latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+          version: latest   
       - run: go version
       - run: goreleaser -v 
       - name: Releaser
         run: make release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
