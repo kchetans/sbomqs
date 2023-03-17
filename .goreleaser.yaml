@@ -45,7 +45,7 @@ release:
 brews:
   - name: sbomqs
     homepage: https://github.com/kchetans/sbomqs
-    folder: Formula
+    folder: formula
     tap:
       owner: kchetans
       name: brew-repo
