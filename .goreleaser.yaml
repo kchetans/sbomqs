@@ -50,14 +50,6 @@ sboms:
     cmd: syft
     args: ["$artifact", "--file", "$sbom", "--output", "spdx-json"]
   
-archives:
-  - name_template: "sbomqs_{{ .Version }}_{{ .Os }}_{{ .Arch }}"  
-    replacements:
-      amd64: x86_64
-
-project_name: sbomqs
-
-# Check https://goreleaser.com/customization/homebrew/
 brews:
   - homepage: 'https://github.com/kchetans/brew-repo'
     description: 'Binary distribution using homebrew.'
